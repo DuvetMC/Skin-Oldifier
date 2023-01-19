@@ -2,9 +2,9 @@ import {Image} from "https://deno.land/x/imagescript@1.2.15/mod.ts"
 
 export default function convertSlimSkin(image: Image) {
     image = copy(image, 48, 17, 7, 16, 1)
-    image = copy(image, 47, 16, 2, 16, 1)
-    image = copy(image, 51, 16, 2, 4, 1)
-    image = copy(image, 55, 20, 2, 12, 1)
+    image = copy(image, 46, 17, 2, 16, 1)
+    image = copy(image, 50, 17, 2, 4, 1)
+    image = copy(image, 54, 21, 2, 12, 1)
     return image
 }
 
