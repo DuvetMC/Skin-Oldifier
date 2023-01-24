@@ -31,8 +31,6 @@ function fixBottoms(image: Image): Image {
             const dx = Math.abs(x - 8)
             const dy = Math.abs(y - 8)
             out.setPixelAt(dx+16, dy, image.getPixelAt(x+17, y+1))
-            out.setPixelAt(dx+16, dy, image.getPixelAt(x+17, y+1))
-            out.setPixelAt(dx+48, dy, image.getPixelAt(x+49, y+1))
             out.setPixelAt(dx+48, dy, image.getPixelAt(x+49, y+1))
         }
     }
